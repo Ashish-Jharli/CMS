@@ -1,0 +1,129 @@
+body {
+    margin: 0px;
+    position: relative;
+}
+
+header {
+    margin-bottom: 50px;
+}
+
+.logo {
+    padding: 12px 0px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.logoa {
+    text-decoration: none;
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    padding: 15px 0px;
+}
+
+ul li {
+    display: inline;
+    color: white;
+    font-size: 20px;
+    margin-left: 3%;
+}
+
+.menus li>a {
+    color: white;
+    text-decoration: none;
+}
+
+.menus li>a:hover {
+    color: cyan;
+    text-decoration: none;
+}
+
+.size {
+    width: 100%;
+    height: 300px;
+}
+
+
+/* Register window */
+.register-window {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 1, 0.9);
+    position: absolute;
+    top: 0px;
+    z-index: 2;
+}
+
+.register-form {
+    width: 40%;
+    height: auto;
+    background: white;
+    margin: 50px auto;
+    text-align: center;
+    padding: 5px 5px 30px 5px;
+    border-radius: 10px;
+    position: absolute;
+    top: 50px;
+    left: 30%;
+}
+
+.close {
+    text-align: right;
+    margin: 50px;
+}
+
+.clsbtn {
+    cursor: pointer;
+    font-weight: bold;
+    color: white;
+    font-size: 30px;
+}
+
+.row {
+    width: 100%;
+}
+
+.col-25 {
+    width: 25%;
+    height: 50px;
+    float: left;
+}
+
+.col-75 {
+    width: 75%;
+    height: 50px;
+    float: right;
+}
+
+.fix {
+    clear: both;
+}
+
+label {
+    height: 30px;
+}
+
+input {
+    width: 80%;
+    height: 30px;
+}
+
+.subbtn {
+    background-color: blue;
+    color: white;
+    border: none;
+}
+
+
+@media screen and (max-width: 768px) {
+    ul li {
+        display: block;
+        text-align: center;
+        margin: 5px 0px;
+
+    }
+}

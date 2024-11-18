@@ -1,0 +1,73 @@
+body{
+  margin : 0px;
+  background-color: rgb(23, 18, 18);
+}
+.menubar{
+  height: 50px;
+  font-weight: bold;
+  padding-top: 10px;
+  font-size: 18px;
+}
+.pad1{
+  padding: 20px;
+}
+.pad{
+  padding: 50px;
+}
+.head{
+  font-weight: bold;
+  font-family: Arial;
+}
+.sidebar{
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+.sidebar li{
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+
+/* Register window */
+.register-window{
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,1,0.5);
+  position: absolute;
+  top: 0px;
+}
+
+.register-form{
+  width: 30%;
+  height: auto;
+  background: white;
+  margin: 50px auto;
+  text-align: center;
+  padding: 10px 10px 30px 10px;
+  border-radius: 10px;	 
+}
+
+.row{
+ width: 100%;
+}
+.col-25{
+ width: 25%;
+ height: 50px;
+ float: left;
+}
+.col-75{
+ width: 75%;
+ height: 50px;
+ float: right;
+}
+.fix{
+ clear : both;
+}
+label{
+ height: 30px;
+}
+input{
+ width: 80%;
+ height: 30px;
+}
